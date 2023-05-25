@@ -13,14 +13,154 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  background-image: url(/images/logo_place_header.svg);
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  position: relative; /*возможно не нужно*/
+  width: 730px;
+  line-height: 96px;
+  font-size:  102px;
+  font-weight: 600;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  position: absolute;
+  max-width: 338px;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main-illustration-header-image {
+  width: 765px;
+  height: 608px;
+  display: block;
+}
+
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
+
+.description {
+  margin-top: 100px;
+}
+
+.two-columns {
+  width: 80%;
+  min-height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.two-columns__brief {
+  margin: 0;
+  line-height: 1.2;
+  width: 175px;
+  font-size: 18px;
+  color: #2f80ed;
+  font-weight: normal;
+
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.two-columns__paragraph {
+  margin-top: 30px;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+.digits {
+  margin-top: 100px;
+}
+
+.section-title {
+  background-color: pink;
+  text-align: center;
+  width: 60%;
+  /*почему то не работает width: 60%;*/
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle{
+
+}
+
+.table {
+  display: flex;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -29,3 +169,4 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
