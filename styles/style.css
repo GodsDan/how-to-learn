@@ -127,30 +127,117 @@
 
 .digits {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-title {
-  background-color: pink;
-  text-align: center;
-  width: 60%;
-  /*почему то не работает width: 60%;*/
   margin: 0;
+  width: 60%;
+  text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
 }
 
-.section-subtitle{
+.section-subtitle {
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 
 }
 
 .table {
+  width: 1100px;
   display: flex;
-
-
+  flex-direction: row;
+  align-items: start;
 }
 
+.table__cell {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
 
+.table__cell-setting {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feynman {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.feynman__image {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.feynman__image-prop {
+  display: block;
+  width: 867px;
+  height: 637px;
+}
 
 
 
@@ -168,5 +255,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 0;
 }
 
