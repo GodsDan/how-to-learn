@@ -70,7 +70,6 @@
   display: block;
 }
 
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
@@ -102,13 +101,11 @@
   font-size: 18px;
   color: #2f80ed;
   font-weight: normal;
-
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-
 }
 
 .two-columns__paragraph {
@@ -149,7 +146,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .table {
@@ -260,7 +256,6 @@
   margin-top: 90px;
   color: white;
   z-index: 3;
-
 }
 
 .section-subtitle_theme_dark {
