@@ -17,7 +17,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
