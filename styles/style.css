@@ -60,8 +60,6 @@
 }
 
 .header__main-illustration {
-  background-image: url("../images/header-image.png");
-  background-size: cover;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -72,7 +70,6 @@
   object-fit: cover;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -283,11 +280,10 @@
   width: 877px;
   height: 877px;
   top: 0;
-  right: 0;
+  right: -210px;
   background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 0 right -210px;
   z-index: 2;
 }
 
@@ -338,7 +334,6 @@
 }
 
 .footer__column-heading {
-
   color: #ffffff;
   margin: 0;
   line-height: 30px;
