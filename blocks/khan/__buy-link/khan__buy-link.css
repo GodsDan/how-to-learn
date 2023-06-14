@@ -6,4 +6,10 @@
   color: #2F80ED;
   margin-left: 48px;
   cursor: pointer;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.7;
 }
